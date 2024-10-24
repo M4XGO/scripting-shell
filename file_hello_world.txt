@@ -1,0 +1,52 @@
+English: Hello, World!
+French: Bonjour, le monde!
+Spanish: ¡Hola, Mundo!
+German: Hallo, Welt!
+Italian: Ciao, Mondo!
+Portuguese: Olá, Mundo!
+Dutch: Hallo, Wereld!
+Russian: Привет, мир!
+Chinese (Simplified): 你好，世界！
+Chinese (Traditional): 你好，世界！
+Japanese: こんにちは、世界！
+Korean: 안녕하세요, 세계!
+Hindi: नमस्ते, दुनिया!
+Arabic: مرحبا بالعالم!
+Bengali: হ্যালো, বিশ্ব!
+Urdu: ہیلو، دنیا!
+Greek: Γειά σου, Κόσμε!
+Hebrew: שלום, עולם!
+Swedish: Hej, Världen!
+Norwegian: Hei, Verden!
+Danish: Hej, Verden!
+Finnish: Hei, Maailma!
+Turkish: Merhaba, Dünya!
+Persian: سلام دنیا!
+Swahili: Habari, Dunia!
+Zulu: Sawubona, Mhlaba!
+Vietnamese: Xin chào, Thế giới!
+Thai: สวัสดี, โลก!
+Filipino: Kamusta, Mundo!
+Malay: Hai, Dunia!
+Czech: Ahoj, světe!
+Polish: Witaj, Świecie!
+Hungarian: Helló, Világ!
+Romanian: Salut, Lume!
+Serbian: Здраво, Свете!
+Croatian: Pozdrav, Svijete!
+Slovak: Ahoj, Svet!
+Slovenian: Pozdravljen, Svet!
+Bulgarian: Здравей, свят!
+Albanian: Përshendetje, Botë!
+Lithuanian: Labas, Pasauli!
+Latvian: Sveika, Pasaule!
+Estonian: Tere, Maailm!
+Icelandic: Halló, Heimur!
+Irish: Dia duit, Domhan!
+Welsh: Helo, Byd!
+Scottish Gaelic: Halò, a Shaoghail!
+Maltese: Ħello, Dinja!
+Luxembourgish: Moien, Welt!
+Basque: Kaixo, Mundua!
+Catalan: Hola, Món!
+Galician: Ola, Mundo!
