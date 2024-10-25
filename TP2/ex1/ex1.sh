@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 lister_processus() {
     utilisateur=$1
     file_name="processus_$utilisateur.md"
