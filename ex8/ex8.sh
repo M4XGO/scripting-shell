@@ -21,9 +21,9 @@ mot1=${mot1:0:2}
 mot2=${mot2:0:2}
 mot3=${mot3:0:2}
 
-if [ -z $mot1 ] || [ -z $mot2 ] || [ -z $mot3 ]
+if [ ${#mot1} -lt 3 ] || [ ${#mot2} -lt 3 ] || [ ${#mot3} -lt 3 ]
 then
-	echo 'Error dans le parsing des mots'
+	echo 'Erreur: les mots doivent contenir au moins 3 caractères'
 	exit 1
 fi
 resu=$mot1$mot2$mot3$resuNum

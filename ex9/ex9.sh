@@ -16,10 +16,10 @@ fi
 
 parent_dir=$(dirname "$varpath")
 if [ ! -d "$parent_dir" ]; then
-  mkdir -p "$parent_dir"
-  if [ $? -ne 0 ]; then
-    echo "Erreur: Impossible de créer le répertoire parent $parent_dir"
-    exit 1
+	mkdir -p "$parent_dir"
+	if [ $? -ne 0 ]; then
+		echo "Erreur: Impossible de créer le répertoire parent $parent_dir"
+		exit 1
   fi
 fi
 
