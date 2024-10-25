@@ -9,21 +9,28 @@
 
 varpath="$1"
 
-#read -p 'Saisir le chemin du répertoir a creer ' varpath
-
-#if [ -z $varpath ]
-#then
-#	echo "Remplissez le path"
-#	exit 0
-#fi
 if [ -z "$varpath" ]; then
   echo 'Usage: $varpath as parameter'
   exit 0
 fi
 
-if [ ! -w "$(dirname "$varpath")" ]; then
+parent_dir=$(dirname "$varpath")
+if [ ! -d "$parent_dir" ]; then
+  mkdir -p "$parent_dir"
+  if [ $? -ne 0 ]; then
+    echo "Erreur: Impossible de créer le répertoire parent $parent_dir"
+    exit 1
+  fi
+fi
+
+if [ ! -w "$parent_dir" ]; then
   echo "Erreur: Vous n'avez pas les droits d'accès pour créer le répertoire à cet emplacement."
-  exit 0
+  exit 1
 fi
 
 mkdir -p "$varpath"
+code_retour=$?
+
+if [ ${code_retour} -eq 0 ]; then
+  tree $(basename "$parent_dir")
+fi
