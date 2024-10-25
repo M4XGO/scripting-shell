@@ -11,7 +11,7 @@ varpath="$1"
 
 if [ -z "$varpath" ]; then
   echo 'Usage: $varpath as parameter'
-  exit 0
+  exit 1
 fi
 
 parent_dir=$(dirname "$varpath")
